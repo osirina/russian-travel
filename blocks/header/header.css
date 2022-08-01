@@ -5,24 +5,4 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-
-}
-
-.header__lang-links {
-    display: flex;
-    flex-direction: row;
-}
-
-.header__lang-link {
-    margin-right: 18px;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.header__lang-link:last-child {
-    margin-right: 0px;
-}
-
-.header__lang-link_active {
-    text-decoration: underline;
 }
