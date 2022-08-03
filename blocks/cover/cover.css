@@ -1,0 +1,49 @@
+.cover {
+    max-width: 1184px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "content";
+}
+
+.cover__background {
+    width: 100%;
+    max-width: 1184px;
+    justify-self: center;
+    grid-area: content;
+}
+
+.cover__overlay {
+    background: #2A2C2F;
+    opacity: 0.3;
+    grid-area: content;
+    z-index: 1;
+}
+
+.cover__content {
+    grid-area: content;
+    z-index: 2;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover__title {
+    max-width: 560px;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 32px;
+}
+
+.cover__subtitle {
+    max-width: 360px;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    align-self: center;
+}
