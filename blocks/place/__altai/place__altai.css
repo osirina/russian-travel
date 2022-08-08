@@ -1,0 +1,17 @@
+.place__altai {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: repeat(2, auto);
+    gap: 40px 48px;
+    grid-template-areas: 
+    "title-altai website-altai"
+    "image-altai text-altai"
+}
+
+@media screen and (min-width: 1024px)  {
+    .place__altai {
+        grid-template-columns: 440px 456px;
+        gap: 32px 48px;
+   }
+}

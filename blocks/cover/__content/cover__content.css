@@ -1,0 +1,8 @@
+.cover__content {
+    grid-area: content;
+    z-index: 1;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}

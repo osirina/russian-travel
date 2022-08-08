@@ -1,6 +1,12 @@
 .cover {
     max-width: 1184px;
-    margin: 0 auto;
+    min-height: 740px;
+    background-image: url(../../images/trains-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -8,42 +14,27 @@
     "content";
 }
 
-.cover__background {
-    width: 100%;
-    max-width: 1184px;
-    justify-self: center;
-    grid-area: content;
-}
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
-.cover__overlay {
     background: #2A2C2F;
     opacity: 0.3;
-    grid-area: content;
-    z-index: 1;
+    transition: opacity 0.3s;
 }
 
-.cover__content {
-    grid-area: content;
-    z-index: 2;
-    align-self: center;
-    justify-self: center;
-    display: flex;
-    flex-direction: column;
+.cover:hover::before {
+    opacity: 0.8;
+    transition: opacity 0.3s;
 }
 
-.cover__title {
-    max-width: 560px;
-    font-size: 72px;
-    line-height: 76px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 0 32px;
-}
-
-.cover__subtitle {
-    max-width: 360px;
-    font-size: 19px;
-    line-height: 22px;
-    text-align: center;
-    align-self: center;
+@media screen and (min-width: 1024px)  {
+    .cover {
+        width: 100%;
+        min-height: 640px;
+   }
 }
