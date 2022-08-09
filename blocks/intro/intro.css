@@ -2,14 +2,20 @@
     max-width: 984px;
 }
 
-@media screen and (min-width: 1024px)  {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .intro {
         max-width: 928px;
     }
 }
-/*
-@media screen and (min-width: 320px)  {
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro {
-        min-width: 288px;
+        max-width: 720px;
     }
-}*/
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro {
+        max-width: 288px;
+    }
+}
