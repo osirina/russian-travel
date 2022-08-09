@@ -18,12 +18,12 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__article/intro__article.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__item/list__item.css);
+@import url(../blocks/intro/__item/intro__item.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/places/places.css);
-@import url(../blocks/places/__list/places__list.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__list/place__list.css);
 @import url(../blocks/place/__kosa/place__kosa.css);
 @import url(../blocks/place/__kolskiy/place__kolskiy.css);
 @import url(../blocks/place/__altai/place__altai.css);
@@ -62,6 +62,5 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
-@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__author/footer__author.css);
