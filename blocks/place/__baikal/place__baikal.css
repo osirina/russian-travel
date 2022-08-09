@@ -6,7 +6,7 @@
     gap: 40px 48px;
     grid-template-areas: 
     "title-baikal website-baikal"
-    "image-baikal text-baikal"
+    "image-baikal text-baikal";
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -34,6 +34,6 @@
     "title-baikal" 
     "website-baikal"
     "image-baikal" 
-    "text-baikal"
+    "text-baikal";
    }
 }
