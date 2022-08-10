@@ -1,5 +1,5 @@
 .header {
-    max-width: calc(1184 / 1280 * 100%);
+    max-width: 1184px;
     min-height: 52px;
     display: flex;
     flex-direction: row;

@@ -1,5 +1,6 @@
 @import url(../vendors/normalize.css);
-@import url(../blocks/page.css);
+@import url(../vendors/fonts/fonts.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -57,6 +58,7 @@
 @import url(../blocks/place/__text/_place/place__text_place_karelia.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
