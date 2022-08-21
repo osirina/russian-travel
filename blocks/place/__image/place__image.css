@@ -1,6 +1,7 @@
 .place__image {
     width: 100%;
     box-sizing: border-box;
+    grid-area: image;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
