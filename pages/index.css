@@ -42,3 +42,7 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__author/footer__author.css);
+
+* {
+    border: 1px solid red;
+}
