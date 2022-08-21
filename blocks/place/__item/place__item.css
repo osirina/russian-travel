@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 460px 484px;
     grid-template-rows: repeat(2, auto);
-    gap: 40px 48px;
+    gap: 48px 40px;
     grid-template-areas: 
     "title website"
     "image text";
@@ -14,7 +14,7 @@
     .place__item {
         max-width: 928px;
         grid-template-columns: 440px 456px;
-        gap: 32px 48px;
+        gap: 48px 32px;
     }
 }
 
