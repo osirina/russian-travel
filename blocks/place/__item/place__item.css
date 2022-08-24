@@ -21,7 +21,7 @@
 @media screen and (max-width: 1023px) {
     .place__item {
         max-width: 720px;
-        margin-top: 73px;
+        margin-top: 72px;
         grid-template-columns: 340px 352px;
         gap: 48px 28px;
     }
